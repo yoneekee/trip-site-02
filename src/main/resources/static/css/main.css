@@ -1,5 +1,10 @@
 @charset "UTF-8";
-/********* main **********/
+/********* company **********/
+.companyInfo img {
+  width: 60%;
+  margin: 0 auto;
+}
+
 /******* join / login ********/
 .formContainer {
   padding: 250px 50px 200px 50px;
