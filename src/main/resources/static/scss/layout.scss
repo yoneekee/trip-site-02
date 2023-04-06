@@ -44,6 +44,7 @@ img {
   --gray: rgb(107, 109, 114);
   --lightgray: rgb(204, 208, 216);
   --red: rgb(255, 43, 43);
+  --sakura: rgb(220, 82, 155);
   --h2: 44px;
   --h3: 32px;
 }
@@ -56,12 +57,20 @@ img {
   font-weight: 900;
 }
 
+.sakura {
+  color: var(--sakura);
+}
+
+.green {
+  color: var(--green);
+}
+
 .myLogin {
   z-index: 999999;
   position: absolute;
   top: 25px;
   right: 50px;
-  background-color: rgba(255, 255, 255, 0.77);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 20px;
   color: var(--black);
   padding: 0 20px;

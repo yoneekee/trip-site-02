@@ -1,5 +1,12 @@
 @charset "UTF-8";
 /********* company **********/
+.company h1 {
+  font-size: 64px;
+}
+
+.companyInfo h1 {
+  font-size: 64px;
+}
 .companyInfo img {
   width: 60%;
   margin: 0 auto;
