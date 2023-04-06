@@ -11,10 +11,4 @@ public class HomeController {
     return "/index/index";
   }
 
-
-  @GetMapping("/company/companyinfo")
-  public String companyInfo() {
-    return "/company/companyinfo";
-  }
-
 }
