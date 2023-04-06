@@ -229,6 +229,36 @@ h2 {
 }
 /************ promotion end ************/
 
+.map {
+  width: 100%;
+  margin-top: 80px;
+  position: relative;
+
+  .pointer {
+    position: absolute;
+    font-size: 48px;
+    top: 10px;
+    left: 10px;
+    color: var(--white);
+    z-index: 100;
+  }
+
+  .wrap {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+/************** map end ****************/
 .airplane {
   width: 100%;
   justify-content: space-between;
@@ -239,7 +269,7 @@ h2 {
 }
 .airplane_title {
   margin: auto 0;
-  padding: 50px;
+  padding: 40px;
 }
 .airplane_img {
   text-align: center;

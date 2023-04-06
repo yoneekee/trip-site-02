@@ -31,16 +31,30 @@
   </head>
   <body>
     <div class="myLogin">
-      <a href="/member/join">join</a>
+      <a href="/member/join">Join</a>
       <a href="/member/login">Login</a>
-      <a href="">MyPage</a>
+      <a href="/member/info">MyPage</a>
     </div>
+
+    <!-- <th:block th:if="${session.userId != null}">
+      <div class="myLogin">
+        <a href="/member/info">MyPage</a>
+        <a href="/member/logout">LogOut</a>
+      </div>
+    <th:block>
+
+    <th:block th:if="${session.userId ne null}">
+      <div class="myLogin">
+        <a href="/member/join">Join</a>
+        <a href="/member/login">Login</a>
+      </div>
+    </th:block> -->
 
     <header class="header">
       <h1 class="logo">
         <a href="/">
-          <img src="/images/logo.png" alt="" class="logo__img--dark" />
-          <img src="/images/logo.png" alt="" class="logo__img--light" />
+          <img src="/images/StellarTour.png" alt="" class="logo__img--dark" />
+          <img src="/images/StellarTour.png" alt="" class="logo__img--light" />
         </a>
       </h1>
       <nav class="gnb">
@@ -52,21 +66,21 @@
               Country</a
             >
             <ul class="depth02">
-              <li><a href="">韓国 (South Korea) </a></li>
-              <li><a href="">日本 (Japan) </a></li>
-              <li><a href="">中国 (China)</a></li>
+              <li><a href="/traveling/korea">韓国 (South Korea) </a></li>
+              <li><a href="/traveling/japan">日本 (Japan) </a></li>
+              <li><a href="/traveling/china">中国 (China)</a></li>
             </ul>
           </li>
           <li>
-            <a href="">Transportation</a>
+            <a href="#">Transportation</a>
             <ul class="depth02">
-              <li><a href="">飛行機 (Airplane)</a></li>
-              <li><a href="">バス (Bus)</a></li>
-              <li><a href="">トレイン (Train)</a></li>
+              <li><a href="/transportation/airplane">飛行機 (Airplane)</a></li>
+              <li><a href="/transportation/bus">バス (Bus)</a></li>
+              <li><a href="/transportation/train">トレイン (Train)</a></li>
             </ul>
           </li>
           <li>
-            <a href="">Hotel</a>
+            <a href="#">Hotel</a>
             <ul class="depth02">
               <li>
                 <a href="#"
@@ -75,17 +89,17 @@
                 >
               </li>
               <li>
-                <a href="#">座席選択 <br />(Seat Selection)</a>
+                <a href="/hotel/seat">座席選択 <br />(Seat Selection)</a>
               </li>
               <li>
-                <a href="#">手荷物 <br />(Baggage)</a>
+                <a href="/hotel/baggage">手荷物 <br />(Baggage)</a>
               </li>
               <li>
-                <a href="#">機内サービス <br />(In-flight service)</a>
+                <a href="/hotel/inflight">機内サービス <br />(In-flight service)</a>
               </li>
             </ul>
           </li>
-          <li><a href="">Reservation</a></li>
+          <li><a href="#">Reservation</a></li>
           <li>
             <a href=""
               >Company <br />
@@ -93,27 +107,24 @@
             >
             <ul class="depth02">
               <li>
-                <a href="#">企業情報 <br />(Company information) </a>
+                <a href="/reservation/companyinfo">企業情報 <br />(Company information) </a>
               </li>
               <li>
-                <a href="#">会社概要 <br />(Company profile) </a>
+                <a href="/reservation/companyprofile">会社概要 <br />(Company profile) </a>
               </li>
               <li>
-                <a href="#">企業理念 <br />(Corporate policy) </a>
-              </li>
-              <li>
-                <a href="#">機内サービス <br />(In-flight service)</a>
+                <a href="/reservation/companypolicy">企業理念 <br />(Corporate policy) </a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="">Board</a>
+            <a href="#">Board</a>
             <ul class="depth02">
               <li>
-                <a href="">自由掲示板 <br />(Free Board) </a>
+                <a href="/board/freeboard">自由掲示板 <br />(Free Board) </a>
               </li>
               <li>
-                <a href="">VIP掲示板 <br />(VIP Board) </a>
+                <a href="/board/vipboard">VIP掲示板 <br />(VIP Board) </a>
               </li>
             </ul>
           </li>
@@ -121,8 +132,8 @@
         </ul>
       </nav>
       <div class="language">
-        <a href="" class="active">ko</a>
-        <a href="">en</a>
+        <a href="#" class="active">ko</a>
+        <a href="#">en</a>
       </div>
     </header>
 

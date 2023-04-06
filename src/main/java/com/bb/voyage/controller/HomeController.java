@@ -12,8 +12,5 @@ public class HomeController {
   }
 
 
-  @GetMapping("/table")
-  public String table() {
-    return "/table/table";
-  }
+
 }
