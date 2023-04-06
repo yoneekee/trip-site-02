@@ -12,5 +12,9 @@ public class HomeController {
   }
 
 
+  @GetMapping("/company/companyinfo")
+  public String companyInfo() {
+    return "/company/companyinfo";
+  }
 
 }

@@ -10,17 +10,19 @@
   margin: 0 auto;
   text-align: center;
 }
-#sending .joinFileBtn:hover {
+
+.joinFileBtn:hover {
   background-color: #ddd;
 }
-#sending .iDduplCheck {
+
+.iDduplCheck {
   display: flex;
 }
-#sending .iDduplCheck input {
+.iDduplCheck input {
   width: 74%;
   margin-right: 10px;
 }
-#sending .iDduplCheck button {
+.iDduplCheck button {
   color: var(--black);
 }
 

@@ -10,22 +10,23 @@
   width: 40%;
   margin: 0 auto;
   text-align: center;
+}
 
-  .joinFileBtn:hover {
-    background-color: #ddd;
+.joinFileBtn:hover {
+  background-color: #ddd;
+}
+
+.iDduplCheck {
+  display: flex;
+  input {
+    width: 74%;
+    margin-right: 10px;
   }
-
-  .iDduplCheck {
-    display: flex;
-    input {
-      width: 74%;
-      margin-right: 10px;
-    }
-    button {
-      color: var(--black);
-    }
+  button {
+    color: var(--black);
   }
 }
+
 .joinBtn {
   align-items: center;
   display: flex;
