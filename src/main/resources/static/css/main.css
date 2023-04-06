@@ -70,6 +70,7 @@ a:hover .more {
   background-color: var(--lightgreen);
   color: var(--white);
   border-radius: 20px;
+  border: 1px solid var(--lightgreen);
   transition: all 0.3s ease;
 }
 
