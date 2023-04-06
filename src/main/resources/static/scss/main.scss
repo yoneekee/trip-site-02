@@ -456,10 +456,13 @@ h2 {
 
 .discount .discount-img {
   position: relative;
+
   border-radius: 15px;
   overflow: hidden;
 }
 .discount .discount-img img {
+  object-fit: cover;
+  height: 280px;
   width: 100%;
 }
 .discount .discount-img .sticker {
